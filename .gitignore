@@ -1,0 +1,42 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+
+# Dotnet tools
+.dotnet/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+nuget.config
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Mac / Linux system files
+.DS_Store
+Thumbs.db
+
+# Publish outputs
+publish/

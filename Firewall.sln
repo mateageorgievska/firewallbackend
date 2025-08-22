@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firewall", "Firewall.csproj", "{68269220-E4DE-4807-8F37-7ACA7CCD9A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firewall.Services", "..\Firewall.Services\Firewall.Services.csproj", "{EDA0E749-9B9D-4A8B-8AFF-5B4DAFF7B643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firewall.Repositories", "..\Firewall.Repositories\Firewall.Repositories.csproj", "{B60B427C-3B37-4394-9D49-3DC3B03F972C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Model\Models.csproj", "{1F1B227F-BD48-41FC-AF36-F51E8B4C3BC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "..\Persistence\Persistence.csproj", "{5324FFD2-0728-4DF5-9426-0E35A25AEAD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68269220-E4DE-4807-8F37-7ACA7CCD9A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68269220-E4DE-4807-8F37-7ACA7CCD9A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68269220-E4DE-4807-8F37-7ACA7CCD9A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68269220-E4DE-4807-8F37-7ACA7CCD9A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA0E749-9B9D-4A8B-8AFF-5B4DAFF7B643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA0E749-9B9D-4A8B-8AFF-5B4DAFF7B643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA0E749-9B9D-4A8B-8AFF-5B4DAFF7B643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA0E749-9B9D-4A8B-8AFF-5B4DAFF7B643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60B427C-3B37-4394-9D49-3DC3B03F972C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60B427C-3B37-4394-9D49-3DC3B03F972C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60B427C-3B37-4394-9D49-3DC3B03F972C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60B427C-3B37-4394-9D49-3DC3B03F972C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1B227F-BD48-41FC-AF36-F51E8B4C3BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1B227F-BD48-41FC-AF36-F51E8B4C3BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1B227F-BD48-41FC-AF36-F51E8B4C3BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1B227F-BD48-41FC-AF36-F51E8B4C3BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5324FFD2-0728-4DF5-9426-0E35A25AEAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5324FFD2-0728-4DF5-9426-0E35A25AEAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5324FFD2-0728-4DF5-9426-0E35A25AEAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5324FFD2-0728-4DF5-9426-0E35A25AEAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94464230-E1D8-400D-BEED-0C0744ED0E19}
+	EndGlobalSection
+EndGlobal
