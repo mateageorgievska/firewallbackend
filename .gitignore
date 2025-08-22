@@ -28,6 +28,7 @@ logs/
 *.snupkg
 packages/
 .nuget/
+nuget.config
 
 # Rider / JetBrains
 .idea/
